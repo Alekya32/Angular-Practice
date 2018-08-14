@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <h3>{{name}}</h3>
+</div>
+<div style="text-align:left">
+  <!-- <h3>{{pageHeader}}</h3> -->
+  <my-emp></my-emp>
+  <button [disabled]='isDisabled'>Click Me!!(Property Binding)</button>  <!-- property binding -->
+  <br/>
+  <button disabled={{hidden}}>Help??(Interpolation)</button> <!-- Interpolation -->
+  <div [innerHtml]='badHtml'></div>
+</div>
+
